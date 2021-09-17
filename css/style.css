@@ -1,0 +1,93 @@
+/*Add padding and margin to space out the page.
+Make the font larger too.*/
+body{
+	margin:1%;
+	padding:1%;
+	font-size:140%;
+}
+header{
+	background: #fff;
+	border-bottom: 3px solid #ABC2E4;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+/*Make the h1 heading bigger with a bold font*/
+h1{
+	font-size: 50px; 
+	font-weight: bold;
+	text-align: center;
+	color: #78a2cc;
+}
+
+
+
+nav {
+	width: 100%;
+}
+
+.nav_links {
+	padding:10px;
+	width: 25%;
+	width: 100%;
+	color: #5E5B5B;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+/*Style the images*/
+img{
+    height: 400px;
+    width:auto;
+    padding: 25px;
+    border-radius: 10px;
+	opacity: 0.5;
+}
+
+#logo {
+	height: 200px;
+	width: auto;
+	opacity: 1.0;
+}
+
+/*Make the h2 heading match h1*/
+h2{
+	font-size: 35x; 
+	font-weight: bold;
+	color: black;
+}
+
+
+/*Improve the spacing for paragraphs AND headings*/
+p, h1, h2 {
+    padding: 10px;
+}
+  body {
+	background-color: white;
+	font-family: Helvetica, sans-serif;
+  }
+
+ 
+#hmm {
+	opacity: 1.0;
+	align-items: center;
+	height: 350px;
+	width: 300px;
+	top: 50%;
+	left: 42%;
+	position: relative;
+}
+
+.saek {
+	color: black;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	font-size: small;
+}
